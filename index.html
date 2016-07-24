@@ -1,35 +1,28 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: default
+---
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
-    <title>Begin by qiuyangyueye</title>
-  </head>
-
-  <body>
-
-    <header>
-      <div class="container">
-        <h1>Begin</h1>
-        <h2>My blog</h2>
-
-        <section id="downloads">
-          <a href="https://github.com/qiuyangyueye" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
-      </div>
-    </header>
-
-    <div class="container">
-      <section id="main_content">
-        <p>begin</p>
-      </section>
-    </div>
-
-    
-  </body>
-</html>
+<div class="home">
+  <h1 class="page-heading">Posts</h1>
+  <ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <p class="description">
+            {% if post.description %}
+                {{ post.description | strip_html | strip_newlines | truncate: 250 }}
+            {% else %}
+                {{ post.content | strip_html | strip_newlines | truncate: 250 }}
+            {% endif %}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% if paginator.total_pages > 1 %}<!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %} <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="prev">Newer Posts</a> {% endif %}
+    {% if paginator.next_page %} <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Older Posts</a>{% endif %}
+  </div>{% endif %}
