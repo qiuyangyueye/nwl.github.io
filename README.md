@@ -1,32 +1,21 @@
-# About
-
-This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
-
-You can visit [here](http://gaohaoyang.github.io) to see this blog.
-
----
-
-这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
-
-博客访问地址：[点击这里](http://gaohaoyang.github.io)
-
-**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
-
-<!--
-
-## 被引用信息
-
-使用了我的模板并写明来源的人：   
-
-* [dreamholy](http://dreamholy.github.io/)
-
-没有注明来源的人：
-
-* [yangshuailing](http://yangshuailing.github.io/com/)
-* [huapu728](http://huapu728.github.io/)
-* [greatbuger](http://greatbuger.github.io/) 
+# Gravity
 
 
--->
+If there's any issue you are facing in setting up this theme I'm there for you. Just create an issue in this repository (http://github.com/hemangsk/Gravity), (https://help.github.com/articles/creating-an-issue/) and I'll get back to you asap.
 
+![alt tag](https://farm2.staticflickr.com/1593/25549169123_cfb392bfe9.jpg)
+
+![alt-tag](https://farm8.staticflickr.com/7295/26900743846_10e9a0ba71_o.png)
+![alt-tag](https://farm8.staticflickr.com/7675/26840339222_b078607576_o.png)
+![alt-tag](https://farm2.staticflickr.com/1592/26151881165_3f351e5fd1.jpg)
+
+
+
+![alt-tag](https://farm2.staticflickr.com/1674/25549273413_3872aa3b1e_o.png)
+
+
+
+![alt-tag](https://farm2.staticflickr.com/1590/26563924866_ec40fd1ccd_o.png)
+
+![alt-tag](https://farm2.staticflickr.com/1565/25879042020_03acf3c968_o.png)
 
