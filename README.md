@@ -1,27 +1,32 @@
-# Nangka - theme for jekyll
-Just simple theme for your jekyll blog, based on default Jekyll theme.
+# About
 
-### Feature
+This is my blog based on jekyll. And I change the style and interactive. If you want to use this model of the blog. **Please give a star at this repository**. Then you can clone it as your blog model.
 
-- [x] **Google Analytics**
-- [x] **Jekyll Search on Archive Page**
-- [x] **Pagination**
-- [x] **404 Error Page**
-- [x] **SEO** Gems: *[jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap), [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag), [jekyll-feed](https://github.com/jekyll/jekyll-feed)*
-- [x] **Disqus Comments**
-- [x] **Ads**
-- [ ] **Share Button**
+You can visit [here](http://gaohaoyang.github.io) to see this blog.
 
-### [View Demo](http://rmsubekti.github.io/nangka)
+---
 
-### Run this theme on your local machine
-To serve this jekyll theme make sure your computer meets the [following requirements](https://jekyllrb.com/docs/installation/#requirements), and then run this command.
-```
-git clone git@github.com:rmsubekti/nangka.git
-cd nangka
-bundle install
-bundle exec jekyll s
-```
-You can change the site configuration in the [_config.yml](https://github.com/rmsubekti/nangka/blob/gh-pages/_config.yml) file
+这是我的博客，基于 jekyll。我改了所有默认的样式和交互。如果你想使用这个博客模板。**请先在这个仓库上点个star吧**，这也是对我的肯定和鼓励，谢谢了。然后你可以克隆这个仓库用作你自己的博客。
 
-Feel free to fork, change, modify and re-use it.
+博客访问地址：[点击这里](http://gaohaoyang.github.io)
+
+**使用时请注明模板来源:  Jekyll theme by [Gaohaoyang](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
+
+<!--
+
+## 被引用信息
+
+使用了我的模板并写明来源的人：   
+
+* [dreamholy](http://dreamholy.github.io/)
+
+没有注明来源的人：
+
+* [yangshuailing](http://yangshuailing.github.io/com/)
+* [huapu728](http://huapu728.github.io/)
+* [greatbuger](http://greatbuger.github.io/) 
+
+
+-->
+
+
